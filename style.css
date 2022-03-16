@@ -1,0 +1,155 @@
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.header{
+    background-color: #1b5083!important;
+    height: 46px;
+}
+.header-list{
+    list-style: none;
+}
+.header i{
+    padding-right: 10px;
+}
+.header-commit{
+    margin-left: -180px !important;
+}
+.header-other{
+    margin-right:-180px !important;
+}
+.header-item{
+    display: inline-block;
+    line-height:46px;
+    color:#83a1af;
+    cursor: pointer;
+    padding: 0 10px;
+    font-weight: 500;
+}
+.header-item:hover{
+    background-color: #84c6e9cf;
+    color: #ffffff;
+}
+.icon-down{
+    font-size:10px;
+    padding-left: 5px;
+}
+
+.header-link-social{
+    position: relative;
+}
+
+.link-social{
+    position: absolute;
+    width: 300px;
+    height:100px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    left: 0;
+    z-index: 3;
+    animation: extendUp ease-in 0.3s;
+    
+}
+.icon-social{
+    font-size:20px;
+    line-height:100px;
+    padding:36px 59px;
+}
+.icon-social:hover{
+    background-color: #84c6e9cf;
+    cursor: pointer;
+}
+
+.header-link-social:hover .link-social{
+    display: block;
+}
+
+.header-customer-support{
+    position: relative;
+}
+.header-customer-support:hover .customer-support{
+    display: block;
+}
+.customer-support{
+    position: absolute;
+    width: 220px;
+    height:93px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:none;
+    left: 0;
+    z-index: 12;
+    animation: extendUp ease-in 0.3s;
+}
+@keyframes extendUp{
+    from{
+        top: 100px;
+        opacity: 0;
+    }
+    to{
+        top: 50px;
+        opacity: 1;
+    }
+}
+.teamviewer:hover{
+    background-color: #84c6e9cf;
+    cursor: pointer;
+}
+.manage-domain:hover{
+    background-color: #84c6e9cf;
+    cursor: pointer;
+}
+.customer-support i{
+    margin-left: 20px;
+}
+.manage-domain{
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* NAVBAR */
+
+.navbar-item{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+}
+
+
+.navbar-item li{
+    margin: 0 20px;
+}
+
+.navbar-item li a{
+    text-decoration: none;
+    color: rgb(34, 22, 22);
+    font-weight: 500;
+    padding: 10px 0;
+}
+.navbar-item li a:hover{
+    color: rgb(49, 141, 218);
+}
+
+.navbar-logo img{
+    max-width: 267px;
+    height: auto;
+    margin:0 55px 0 95px;
+}
+
+.navbar-contact{
+    background-color:#42A240;
+    border-radius:5px;
+}
+.navbar-contact:hover{
+    background-color:rgb(49, 141, 218);
+}
+.navbar-contact i {
+    color:#ffffff;
+    margin: 0 10px;
+}
+.navbar-contact-content{
+    color:#ffffff;
+    margin-right: 10px;
+}
